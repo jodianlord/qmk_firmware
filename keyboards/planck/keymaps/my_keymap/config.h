@@ -1,9 +1,10 @@
 #pragma once
 
 #ifdef AUDIO_ENABLE
-    #define STARTUP_SONG SONG(USSR_ANTHEM)
+    #define NOKIA_RINGTONE H__NOTE(_E7), H__NOTE(_D7), H__NOTE(_FS6), H__NOTE(_GS6), H__NOTE(_CS7), H__NOTE(_B6), H__NOTE(_D6), H__NOTE(_E6), H__NOTE(_B6), H__NOTE(_A6), H__NOTE(_C6), H__NOTE(_E6), H__NOTE(_A6),
+    #define STARTUP_SONG SONG(NOKIA_RINGTONE)
     // #define STARTUP_SONG SONG(NO_SOUND)
-
+    #define AUDIO_CLICKY
     #define DEFAULT_LAYER_SONGS { SONG(QWERTY_SOUND), \
                                   SONG(COLEMAK_SOUND), \
                                   SONG(DVORAK_SOUND) \
