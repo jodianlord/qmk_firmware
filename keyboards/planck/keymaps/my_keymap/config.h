@@ -1,6 +1,8 @@
 #pragma once
 
 #ifdef AUDIO_ENABLE
+    #undef  TEMPO_DEFAULT
+    #define TEMPO_DEFAULT 170
     #define NOKIA_RINGTONE H__NOTE(_E7), H__NOTE(_D7), H__NOTE(_FS6), H__NOTE(_GS6), H__NOTE(_CS7), H__NOTE(_B6), H__NOTE(_D6), H__NOTE(_E6), H__NOTE(_B6), H__NOTE(_A6), H__NOTE(_CS6), H__NOTE(_E6), H__NOTE(_A6),
     #define STARTUP_SONG SONG(NOKIA_RINGTONE)
     // #define STARTUP_SONG SONG(NO_SOUND)
