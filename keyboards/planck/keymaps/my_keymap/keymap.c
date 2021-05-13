@@ -269,7 +269,7 @@ bool     muse_mode      = false;
 uint8_t  last_muse_note = 0;
 uint16_t muse_counter   = 0;
 uint8_t  muse_offset    = 70;
-uint16_t muse_tempo     = 50;
+uint16_t muse_tempo     = 150;
 
 void encoder_update(bool clockwise) {
     if (muse_mode) {
